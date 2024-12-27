@@ -1,0 +1,40 @@
+/* footer.component.css */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h3, .footer-section h1 {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin: 8px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+  }
+  

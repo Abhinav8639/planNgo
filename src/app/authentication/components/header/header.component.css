@@ -1,0 +1,75 @@
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2C3E50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Logo Style */
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ECF0F1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .highlight {
+    color: #e74c3c;
+  }
+  
+  /* Header Login */
+  .header-login .login-btn {
+    color: #fff;
+    background-color: #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-login .login-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+    transform: scale(1.05);
+  }
+  
+  nav .active {
+    color: #3498db;
+  }
+  
+  /* Dashboard Button */
+  nav .button {
+    background-color: #2ecc71;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav .button:hover {
+    background-color: #27ae60;
+  }
+  
